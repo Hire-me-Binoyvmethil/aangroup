@@ -15,22 +15,90 @@ $( document ).ready(function() {
 });
 $(window).load(function() {
   // The slider being synced must be initialized first
-  $('#carousel').flexslider({
+  $('#carousel1').flexslider({
     animation: "slide",
     controlNav: false,
     animationLoop: false,
     slideshow: false,
     itemWidth: 100,
     itemMargin: 5,
-    asNavFor: '#slider'
+    asNavFor: '#slider1'
   });
  
-  $('#slider').flexslider({
+  $('#slider1').flexslider({
     animation: "slide",
     controlNav: false,
     animationLoop: false,
     slideshow: false,
-    sync: "#carousel"
+    sync: "#carousel1"
+  });
+   $('#carousel2').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 100,
+    itemMargin: 5,
+    asNavFor: '#slider2'
+  });
+ 
+  $('#slider3').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel3"
+  });
+  $('#carousel3').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 100,
+    itemMargin: 5,
+    asNavFor: '#slider3'
+  });
+ 
+  $('#slider2').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel2"
+  });
+  $('#carousel4').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 100,
+    itemMargin: 5,
+    asNavFor: '#slider4'
+  });
+ 
+  $('#slider4').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel4"
+  });
+  $('#carousel5').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 100,
+    itemMargin: 5,
+    asNavFor: '#slider5'
+  });
+ 
+  $('#slider5').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel5"
   });
 });
 
